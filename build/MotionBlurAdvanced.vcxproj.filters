@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{b3746c6c-1091-460a-9141-c7bd542094cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{a648fae7-0d29-43e4-99df-53df764dfb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\nvidia_util">
+      <UniqueIdentifier>{73b267de-121c-43b9-b6ef-9d785a2d7abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{f95b456c-db19-458b-a3e7-949fd751e087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT">
+      <UniqueIdentifier>{76ace163-6cae-4465-bd6d-a0965853ca19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\Core">
+      <UniqueIdentifier>{218e0824-b6dd-4107-b7df-90d6170f490b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\Optional">
+      <UniqueIdentifier>{d7c7eb11-cc14-4095-aa2a-79c0107456ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{e274ef1b-8561-4bd3-972a-81a1e1b7150f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\AntTweakBar">
+      <UniqueIdentifier>{b31105cd-b595-4162-b3ad-b5b3d295b56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\AntTweakBar\bin">
+      <UniqueIdentifier>{ef9e79c4-e4f2-4d82-bd70-f4aadc3f7036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\AntTweakBar\include">
+      <UniqueIdentifier>{167d85e6-b721-4085-9d0b-3cb59254cc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\AntTweakBar\lib">
+      <UniqueIdentifier>{6c812129-7a39-49c5-a4b7-2c436a0a12b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\shaders\ps_gather.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\ps_neighbormax.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\ps_quad.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\ps_scene.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\ps_tilemax.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\vs_quad.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\vs_scene.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\ps_depth.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\constants.hlsli">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\common_util.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\perftracker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\scene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\nvidia_util\DeviceManager.cpp">
+      <Filter>source\nvidia_util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Core\DDSTextureLoader.cpp">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assets\fan.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assets\house.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Optional\SDKmisc.cpp">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\common_util.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\perftracker.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\perftracker_int.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\scene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\nvidia_util\DeviceManager.h">
+      <Filter>source\nvidia_util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Core\DDSTextureLoader.h">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Core\DXUT.h">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Optional\DXUTcamera.h">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\assets\fan.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\assets\house.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\AntTweakBar\include\AntTweakBar.h">
+      <Filter>thirdparty\AntTweakBar\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Optional\SDKmisc.h">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\thirdparty\AntTweakBar\lib\AntTweakBar.lib">
+      <Filter>thirdparty\AntTweakBar\lib</Filter>
+    </Library>
+    <Library Include="..\thirdparty\AntTweakBar\lib\AntTweakBar64.lib">
+      <Filter>thirdparty\AntTweakBar\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\thirdparty\AntTweakBar\bin\AntTweakBar.dll">
+      <Filter>thirdparty\AntTweakBar\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\thirdparty\AntTweakBar\bin\AntTweakBar64.dll">
+      <Filter>thirdparty\AntTweakBar\bin</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
